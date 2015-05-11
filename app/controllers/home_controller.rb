@@ -3,6 +3,6 @@ end
 
 def index
   if user_signed_in?
-    redirect_to :controller=&amp;gt;'dashboard', :action =&amp;gt; 'index'
+    redirect_to :controller=>'dashboard', :action => 'index'
   end
 end
