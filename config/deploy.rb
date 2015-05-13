@@ -1,5 +1,6 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
+set :rvm_ruby_version, 'ruby-2.2.1'
 
 set :application, 'easysign'
 set :repo_url, 'git@github.com:douglasdeodato/easysign.git'
